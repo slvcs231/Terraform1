@@ -8,8 +8,8 @@ metadata :
 
 managedNodeGroups :
   - name : manage-ng-public
-    instanceType :  ["t3.micro"]
-    desiredCapacity :  1
+    instanceType :  ["m5.large","t3.small","t3.large"]
+    desiredCapacity :  2
     spot : true
 
 
